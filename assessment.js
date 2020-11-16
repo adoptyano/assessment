@@ -102,10 +102,3 @@ function assessment(userName) {
     result = result.replace(/\{userName\}/g, userName);
     return result ;
 }
-
-
-console.assert(
-    assessment('太郎') === assessment('太郎'),
-    
-  '診断結果の文言の特定の部分を名前に置き換える処理が正しくありません。'
-)
